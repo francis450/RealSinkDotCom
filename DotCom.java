@@ -5,4 +5,8 @@ public class DotCom{
 	private String name;
 	//An arrayList to hold location of the cells where the DotCOm resides
 	private ArrayList<String> locationCells;
+	//A setter for the name Instance variable
+	public void setName(String jina){
+		name = jina;
+	}
 }
