@@ -16,4 +16,9 @@ public class DotCom{
 	public String getName(){
 		return name;
 	}
+
+	//A function to verify the user guess(Correct or not)
+	public String checkYourself(String userInput){
+
+	}
 }
