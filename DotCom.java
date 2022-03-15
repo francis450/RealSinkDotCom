@@ -19,6 +19,7 @@ public class DotCom{
 
 	//A function to verify the user guess(Correct or not)
 	public String checkYourself(String userInput){
-
+		//A string variable to track the results of user input
+		String result = "miss";
 	}
 }
