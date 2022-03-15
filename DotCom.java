@@ -21,5 +21,8 @@ public class DotCom{
 	public String checkYourself(String userInput){
 		//A string variable to track the results of user input
 		String result = "miss";
+		
+		//Get the index of the cell the user guessed
+		int index = locationCells.indexOf(userInput);
 	}
 }
