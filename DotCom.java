@@ -27,7 +27,8 @@ public class DotCom{
 
 		//If it exists consider the following instructions
 		if(index >= 0){
-
+			//Remove the cell from the location ArrayList
+			locationCells.remove(index);
 		}
 	}
 }
