@@ -43,5 +43,7 @@ public class DotCom{
 				result = "hit";
 			}
 		}
+		//Return the result of the user guess checkYourself()
+		return result;
 	}
 }
