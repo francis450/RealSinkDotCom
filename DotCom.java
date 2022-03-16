@@ -37,6 +37,10 @@ public class DotCom{
 				result = "kill";
 				//Display a Dead DotCom object
 				System.out.println("Congratulations!!! You sank the "+ name);
+			}else{
+				//This is when the ArrayList is not empty thet means the location ArrayList has some cells left
+				//Result then is a hit meaning we have a number of cells left to sink the DotCom
+				result = "hit";
 			}
 		}
 	}
