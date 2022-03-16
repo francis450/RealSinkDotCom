@@ -35,6 +35,8 @@ public class DotCom{
 				//The locations arrayList is empty which means the DotCom is dead
 				//The result is therefore a kill  
 				result = "kill";
+				//Display a Dead DotCom object
+				System.out.println("Congratulations!!! You sank the "+ name);
 			}
 		}
 	}
