@@ -29,6 +29,11 @@ public class DotCom{
 		if(index >= 0){
 			//Remove the cell from the location ArrayList
 			locationCells.remove(index);
+
+			//Check if the ArrayList has anything left in it
+			if(locationCells.isEmpty()){
+
+			}
 		}
 	}
 }
