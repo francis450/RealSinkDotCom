@@ -32,7 +32,9 @@ public class DotCom{
 
 			//Check if the ArrayList has anything left in it
 			if(locationCells.isEmpty()){
-
+				//The locations arrayList is empty which means the DotCom is dead
+				//The result is therefore a kill  
+				result = "kill";
 			}
 		}
 	}
