@@ -49,6 +49,7 @@ public class DotCom{
 
 	//A setter function for the location ArrayList
 	public void setLocationCells(ArrayList<String> loc){
-
+		//Map the argument to the instance variable location
+		location = loc;
 	}
 }
