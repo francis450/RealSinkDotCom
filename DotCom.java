@@ -46,4 +46,9 @@ public class DotCom{
 		//Return the result of the user guess checkYourself()
 		return result;
 	}
+
+	//A setter function for the location ArrayList
+	public void setLocationCells(ArrayList<String> loc){
+
+	}
 }
