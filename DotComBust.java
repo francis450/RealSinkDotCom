@@ -9,5 +9,7 @@ public class DotComBust{
 		private GameHelper helper = new GameHelper();
 		//make an Arraylist of Dot coms 
 		ArrayList<DotCom> dotComsList = new ArrayList<DotCom>();
+		//define an int variable to keep track of number of user guesses
+		int numOfGuesses  =  0;
 
 }
