@@ -12,4 +12,9 @@ public class DotComBust{
 		//define an int variable to keep track of number of user guesses
 		int numOfGuesses  =  0;
 
+		//A method to set up the initial game specs
+		private void setUpGame(){
+
+		}
+
 }
