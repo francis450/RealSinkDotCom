@@ -30,6 +30,11 @@ public class DotComBust{
 			//give user some instructions on how to play the game
 			System.out.println("Your goal is to sink three dot coms using the least number fo guesses.");
 			System.out.println("1. "+one.getName()+"\n2. "+two.getName()+"\n3. "+three.getName());
+
+			//for all the Dot Coms in the ArrayList do this..
+			for(DotCom four : dotComsList){
+
+			}
 		}
 
 }
