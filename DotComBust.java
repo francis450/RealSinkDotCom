@@ -14,7 +14,13 @@ public class DotComBust{
 
 		//A method to set up the initial game specs
 		private void setUpGame(){
-
+			//make three DotCom objects and name them
+			DotCom one = new DotCom();
+			one.setName("Cats.com");
+			DotCom two = new DotCom();
+			two.setName("Dogs.com");
+			DotCom three = new DotCom();
+			three.setName("mice.com");
 		}
 
 }
