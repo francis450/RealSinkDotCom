@@ -21,6 +21,11 @@ public class DotComBust{
 			two.setName("Dogs.com");
 			DotCom three = new DotCom();
 			three.setName("mice.com");
+
+			//Add the three DotComs into the arrayList
+			dotComsList.add(one);
+			dotComsList.add(two);
+			dotComsList.add(three);
 		}
 
 }
