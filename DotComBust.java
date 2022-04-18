@@ -40,4 +40,9 @@ public class DotComBust{
 			}
 		}
 
+		//When invked it starts up the game
+		private void StartPlaying(){
+
+		}
+
 }
