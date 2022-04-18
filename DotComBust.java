@@ -45,6 +45,8 @@ public class DotComBust{
 			while(!dotComsList.isEmpty()){
 				//Declare a String to hold user input from the helper getUSerInput()
 				String userGuess = helper.getUserInput("Enter a guess: ");
+				//Check user Guess for a kill/hit/miss
+				checkUserGuess(userGuess);
 			}
 		}
 
