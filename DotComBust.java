@@ -42,7 +42,10 @@ public class DotComBust{
 
 		//When invked it starts up the game
 		private void StartPlaying(){
-
+			while(!dotComsList.isEmpty()){
+				//Declare a String to hold user input from the helper getUSerInput()
+				String userGuess = helper.getUserInput("Enter a guess: ");
+			}
 		}
 
 }
