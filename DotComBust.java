@@ -42,6 +42,7 @@ public class DotComBust{
 
 		//When invked it starts up the game
 		private void StartPlaying(){
+			//repeat while the DotCom Arraylist is not empty
 			while(!dotComsList.isEmpty()){
 				//Declare a String to hold user input from the helper getUSerInput()
 				String userGuess = helper.getUserInput("Enter a guess: ");
