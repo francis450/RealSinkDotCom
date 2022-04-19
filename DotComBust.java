@@ -59,6 +59,11 @@ public class DotComBust{
 			numOfGuesses++;
 			//Declare a String to hold the results of a userGuess when checked and initialise it to mmiss
 			String result = "miss";
+			
+			for(DotCom four : dotComsList){
+				//store the return value from the objects checkYourself() in result and force out of the loop
+				result = four.checkYourself(userGuess);
+			}
 		}
 
 }
