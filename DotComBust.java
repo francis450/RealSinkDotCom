@@ -55,7 +55,8 @@ public class DotComBust{
 
 		//A method to check if the user guesses are correct
 		private void checkUserGuess(String 	userGuess){
-
+			//Increment the number fo guesses
+			numOfGuesses++;
 		}
 
 }
