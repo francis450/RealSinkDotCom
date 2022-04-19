@@ -53,4 +53,9 @@ public class DotComBust{
 			finishGame();
 		}
 
+		//A method to check if the user guesses are correct
+		private void checkUserGuess(String 	userGuess){
+
+		}
+
 }
