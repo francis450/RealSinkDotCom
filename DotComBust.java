@@ -49,6 +49,8 @@ public class DotComBust{
 				//Check user Guess for a kill/hit/miss
 				checkUserGuess(userGuess);
 			}
+			//When the DotCom ArrayList is empty display number of guesses and a rating
+			finishGame();
 		}
 
 }
