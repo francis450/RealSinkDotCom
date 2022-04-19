@@ -57,6 +57,8 @@ public class DotComBust{
 		private void checkUserGuess(String 	userGuess){
 			//Increment the number fo guesses
 			numOfGuesses++;
+			//Declare a String to hold the results of a userGuess when checked and initialise it to mmiss
+			String result = "miss";
 		}
 
 }
