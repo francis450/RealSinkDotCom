@@ -78,4 +78,9 @@ public class DotComBust{
 			System.out.println(result);
 		}
 
+		//A method to complete the game
+		private void finishGame(){
+
+		}
+
 }
