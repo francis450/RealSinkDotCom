@@ -63,6 +63,11 @@ public class DotComBust{
 			for(DotCom four : dotComsList){
 				//store the return value from the objects checkYourself() in result and force out of the loop
 				result = four.checkYourself(userGuess);
+
+				if(result.equals("hit")){
+					//If the user guess was a hit get out of the loop
+					break;
+				}
 			}
 		}
 
