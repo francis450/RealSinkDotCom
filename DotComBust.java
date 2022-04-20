@@ -68,6 +68,11 @@ public class DotComBust{
 					//If the user guess was a hit get out of the loop
 					break;
 				}
+				//if the result is kill remove the DotCom from the ArrayList and force out of the loop
+				if(result.equals("kill")){
+					dotComsList.remove(four);
+					break;
+				}
 			}
 		}
 
