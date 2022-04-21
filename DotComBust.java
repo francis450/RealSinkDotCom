@@ -92,7 +92,8 @@ public class DotComBust{
 
 		//Main method to start up the program
 		public static void main(String [] args){
-
+			//instantiate a game object
+			DotComBust game = new DotComBust();
 		}
 
 }
