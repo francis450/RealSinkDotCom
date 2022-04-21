@@ -80,7 +80,8 @@ public class DotComBust{
 
 		//A method to complete the game
 		private void finishGame(){
-
+			//Display a generic game over message 
+			System.out.println("Woah! I never thought you would get here. :(");
 		}
 
 }
