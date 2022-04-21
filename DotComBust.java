@@ -82,6 +82,10 @@ public class DotComBust{
 		private void finishGame(){
 			//Display a generic game over message 
 			System.out.println("Woah! I never thought you would get here. :(");
+			//For less than twice the number of cells print a congratulation message
+			if(numOfGuesses <= 18){
+				System.out.println("Good Job!!!\nIt only took you "+numOfGuesses+" guesses to kill all the evil DotComs");
+			}
 		}
 
 }
