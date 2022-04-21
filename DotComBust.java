@@ -85,7 +85,14 @@ public class DotComBust{
 			//For less than twice the number of cells print a congratulation message
 			if(numOfGuesses <= 18){
 				System.out.println("Good Job!!!\nIt only took you "+numOfGuesses+" guesses to kill all the evil DotComs");
+			}else{
+				System.out.println("Heyyoh! It took you too long."+ numOfGuesses+" guesses is too long mehn!");
 			}
+		}
+
+		//Main method to start up the program
+		public static void main(String [] args){
+
 		}
 
 }
