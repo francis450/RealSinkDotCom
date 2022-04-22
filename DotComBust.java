@@ -94,6 +94,8 @@ public class DotComBust{
 		public static void main(String [] args){
 			//instantiate a game object
 			DotComBust game = new DotComBust();
+			//Using the game object invoke the setUpGame() method to start the game
+			game.setUpGame();
 		}
 
 }
