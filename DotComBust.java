@@ -96,6 +96,7 @@ public class DotComBust{
 			DotComBust game = new DotComBust();
 			//Using the game object invoke the setUpGame() method to start the game
 			game.setUpGame();
+			//Start the main gameplay loop(keep asking for user guesses until all DotComs are dead)
+			game.StartPlaying();
 		}
-
 }
