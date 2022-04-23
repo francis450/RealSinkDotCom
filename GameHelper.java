@@ -9,5 +9,7 @@ public class GameHelper{
 	private int gridLength = 7;
 	//Make an int variable to define the size of the grid
 	private int gridSize = 49;
+	//Make an int array to hold all the cells in the grid
+	private int [] grid = new int [gridSize];
 
 }
