@@ -11,5 +11,7 @@ public class GameHelper{
 	private int gridSize = 49;
 	//Make an int array to hold all the cells in the grid
 	private int [] grid = new int [gridSize];
+	//Make an int variable to keep track of the number of Dot Coms in the grid
+	private int comCount = 0;
 
 }
