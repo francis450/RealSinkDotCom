@@ -7,5 +7,7 @@ public class GameHelper{
 	private static final String alphabet = "abcdefg";
 	//Make an int to define the length of the vitual grid
 	private int gridLength = 7;
+	//Make an int variable to define the size of the grid
+	private int gridSize = 49;
 
 }
