@@ -14,4 +14,9 @@ public class GameHelper{
 	//Make an int variable to keep track of the number of Dot Coms in the grid
 	private int comCount = 0;
 
+	public String getUserInput(String prompt){
+		//String variable to hold user input
+		String inputLine = null;
+
+	}
 }
