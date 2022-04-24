@@ -17,6 +17,7 @@ public class GameHelper{
 	public String getUserInput(String prompt){
 		//String variable to hold user input
 		String inputLine = null;
-
+		//Prompt the user for input
+		System.out.print(prompt+" ");
 	}
 }
