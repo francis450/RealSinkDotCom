@@ -23,5 +23,7 @@ public class GameHelper{
 		Scanner is = new Scanner(System.in);
 		//Assign the user input to the inputLine variable
 		inputLine = is.nextLine();
+		//return the user input in lowercase form
+		return inputLine.toLowerCase();
 	}
 }
