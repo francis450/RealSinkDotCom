@@ -19,5 +19,7 @@ public class GameHelper{
 		String inputLine = null;
 		//Prompt the user for input
 		System.out.print(prompt+" ");
+		//Initialize a scanner object to enable input handling		
+		Scanner is = new Scanner(System.in);
 	}
 }
