@@ -27,4 +27,7 @@ public class GameHelper{
 		//return the user input in lowercase form
 		return inputLine.toLowerCase();
 	}
+
+	//An ArrayList method to place Dot Coms in the grid
+	public ArrayList<String> placeDotCom(int comSize){
 }
