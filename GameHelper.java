@@ -32,5 +32,7 @@ public class GameHelper{
 	public ArrayList<String> placeDotCom(int comSize){
 		//An arrayList to hold 'f6' type coords
 		ArrayList<String> alphaCells = new ArrayList<String>();
+		//make a temporary string for concatenation
+		String temp =  null;
 	}
 }
