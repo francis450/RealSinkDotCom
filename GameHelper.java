@@ -30,6 +30,7 @@ public class GameHelper{
 
 	//An ArrayList method to place Dot Coms in the grid
 	public ArrayList<String> placeDotCom(int comSize){
-
+		//An arrayList to hold 'f6' type coords
+		ArrayList<String> alphaCells = new ArrayList<String>();
 	}
 }
