@@ -30,4 +30,6 @@ public class GameHelper{
 
 	//An ArrayList method to place Dot Coms in the grid
 	public ArrayList<String> placeDotCom(int comSize){
+
+	}
 }
