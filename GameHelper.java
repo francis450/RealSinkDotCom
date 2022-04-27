@@ -34,5 +34,7 @@ public class GameHelper{
 		ArrayList<String> alphaCells = new ArrayList<String>();
 		//make a temporary string for concatenation
 		String temp =  null;
+		//Make an array to hold current candidate coords
+		int [] coords = new int [comSize];
 	}
 }
