@@ -38,5 +38,7 @@ public class GameHelper{
 		int [] coords = new int [comSize];
 		//Make an int to keep track of current number of attempts
 		int attempts = 0;
+		//Make a Boolean flag to show us whether we found a good location
+		boolean success = false;
 	}
 }
