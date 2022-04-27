@@ -40,5 +40,8 @@ public class GameHelper{
 		int attempts = 0;
 		//Make a Boolean flag to show us whether we found a good location
 		boolean success = false;
+
+		//current starting location
+		int location = 0;
 	}
 }
