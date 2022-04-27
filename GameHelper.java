@@ -36,5 +36,7 @@ public class GameHelper{
 		String temp =  null;
 		//Make an array to hold current candidate coords
 		int [] coords = new int [comSize];
+		//Make an int to keep track of current number of attempts
+		int attempts = 0;
 	}
 }
