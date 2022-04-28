@@ -48,5 +48,10 @@ public class GameHelper{
 		comCount++;
 		//Set horizontal increment
 		int incr = 1;
+		//IF DotCom is odd
+		if((comCount % 2) == 1){
+
+		}
+
 	}
 }
