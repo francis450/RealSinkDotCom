@@ -46,5 +46,7 @@ public class GameHelper{
 
 		//nth Dot Com to place
 		comCount++;
+		//Set horizontal increment
+		int incr = 1;
 	}
 }
