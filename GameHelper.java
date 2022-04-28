@@ -43,5 +43,8 @@ public class GameHelper{
 
 		//current starting location
 		int location = 0;
+
+		//nth Dot Com to place
+		comCount++;
 	}
 }
