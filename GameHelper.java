@@ -54,5 +54,10 @@ public class GameHelper{
 			incr = gridLength;
 		}
 
+		//main search loop(32)
+		while(!success & attempts++ < 200){
+
+		}
+
 	}
 }
