@@ -50,7 +50,8 @@ public class GameHelper{
 		int incr = 1;
 		//IF DotCom is odd
 		if((comCount % 2) == 1){
-
+			//set vertical increment
+			incr = gridLength;
 		}
 
 	}
