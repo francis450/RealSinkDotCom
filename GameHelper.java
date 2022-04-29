@@ -58,6 +58,8 @@ public class GameHelper{
 		while(!success & attempts++ < 200){
 			//Get a random starting point
 			location = (int) (Math.random() * gridSize);
+			//Display the random starting point(This is for testing of the game otherwise commented out)
+			System.out.println("try "+location);
 		}
 
 	}
