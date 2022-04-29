@@ -64,6 +64,10 @@ public class GameHelper{
 			int x = 0;
 			//assume success
 			success = true;
+			//Look for adjacent unused spots
+			while(success && x < comSize){
+
+			}
 		}
 
 	}
