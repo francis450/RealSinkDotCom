@@ -56,7 +56,8 @@ public class GameHelper{
 
 		//main search loop(32)
 		while(!success & attempts++ < 200){
-
+			//Get a random starting point
+			location = (int) (Math.random() * gridSize);
 		}
 
 	}
