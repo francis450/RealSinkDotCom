@@ -62,6 +62,8 @@ public class GameHelper{
 			System.out.println("try "+location);
 			//nth position in dotcom to place
 			int x = 0;
+			//assume success
+			success = true;
 		}
 
 	}
