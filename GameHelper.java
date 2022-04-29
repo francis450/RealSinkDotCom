@@ -60,6 +60,8 @@ public class GameHelper{
 			location = (int) (Math.random() * gridSize);
 			//Display the random starting point(This is for testing of the game otherwise commented out)
 			System.out.println("try "+location);
+			//nth position in dotcom to place
+			int x = 0;
 		}
 
 	}
