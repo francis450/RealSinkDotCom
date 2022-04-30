@@ -66,7 +66,10 @@ public class GameHelper{
 			success = true;
 			//Look for adjacent unused spots
 			while(success && x < comSize){
+				//if not already used
+				if(grid[location] == 0){
 
+				}
 			}
 		}
 
