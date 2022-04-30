@@ -74,7 +74,8 @@ public class GameHelper{
 					location += incr;
 					//Out of bounds - 'bottom'
 					if(location >= gridSize){
-
+						//failure
+						success = false;
 					}
 				}
 			}
