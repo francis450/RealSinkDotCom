@@ -72,7 +72,10 @@ public class GameHelper{
 					coords[x++] = location;
 					//try next adjacent
 					location += incr;
-					
+					//Out of bounds - 'bottom'
+					if(location >= gridSize){
+
+					}
 				}
 			}
 		}
