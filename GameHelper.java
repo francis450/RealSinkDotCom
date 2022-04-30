@@ -68,7 +68,8 @@ public class GameHelper{
 			while(success && x < comSize){
 				//if not already used
 				if(grid[location] == 0){
-
+					//save location
+					coords[x++] = location;
 				}
 			}
 		}
