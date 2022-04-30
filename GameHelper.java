@@ -70,6 +70,9 @@ public class GameHelper{
 				if(grid[location] == 0){
 					//save location
 					coords[x++] = location;
+					//try next adjacent
+					location += incr;
+					
 				}
 			}
 		}
