@@ -77,6 +77,10 @@ public class GameHelper{
 						//failure
 						success = false;
 					}
+					//out of bounds -right edge
+					if(x>0 && (location % gridLength == 0)){
+
+					}
 				}
 			}
 		}
