@@ -95,7 +95,8 @@ public class GameHelper{
 		int  x = 0;
 		//An int to track the rows
 		int row = 0;
-		
+		//An int to track the columns
+		int column = 0;
 
 	}
 }
