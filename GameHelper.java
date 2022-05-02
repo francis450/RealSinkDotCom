@@ -98,5 +98,8 @@ public class GameHelper{
 		//An int to track the columns
 		int column = 0;
 
+		//MAke a new line 
+		System.out.println("\n");
+
 	}
 }
