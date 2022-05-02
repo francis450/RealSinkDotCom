@@ -93,8 +93,9 @@ public class GameHelper{
 
 		//Turn location into alpha coords
 		int  x = 0;
+		//An int to track the rows
 		int row = 0;
-		int column = 0;
+		
 
 	}
 }
