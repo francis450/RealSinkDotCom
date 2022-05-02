@@ -105,16 +105,7 @@ public class GameHelper{
 		while(x < comSize){
 			//mark master gridpts. as 'used'
 			grid[coords[x]] = 1;
-			//get row value
-			row = (int) (coords[x] / gridLength);
-			//get numeric column value 
-			column = coords[x] % gridLength;
-			//comvert to alpha
-			temp = String.valueOf(alphabet.charAt(column));
-
-			alphaCells.add(temp.concat(Integer.toString(row)));
-			x++;
-			System.out.print("coord "+x+" = "+alphaCells.get(x-1));
+			
 		}
 
 	}
