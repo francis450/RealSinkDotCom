@@ -106,7 +106,9 @@ public class GameHelper{
 			//mark master gridpts. as 'used'
 			grid[coords[x]] = 1;
 			//get row value
-			row = (int) (coords[x] / gridLength);			
+			row = (int) (coords[x] / gridLength);		
+			//get numeric column value 
+			column = coords[x] % gridLength;	
 		}
 
 	}
