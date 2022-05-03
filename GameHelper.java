@@ -105,7 +105,8 @@ public class GameHelper{
 		while(x < comSize){
 			//mark master gridpts. as 'used'
 			grid[coords[x]] = 1;
-			
+			//get row value
+			row = (int) (coords[x] / gridLength);			
 		}
 
 	}
