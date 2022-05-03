@@ -108,7 +108,9 @@ public class GameHelper{
 			//get row value
 			row = (int) (coords[x] / gridLength);		
 			//get numeric column value 
-			column = coords[x] % gridLength;	
+			column = coords[x] % gridLength;
+			//comvert numeric column value to alpha
+			temp = String.valueOf(alphabet.charAt(column));	
 		}
 
 	}
