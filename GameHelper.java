@@ -110,7 +110,9 @@ public class GameHelper{
 			//get numeric column value 
 			column = coords[x] % gridLength;
 			//comvert numeric column value to alpha
-			temp = String.valueOf(alphabet.charAt(column));	
+			temp = String.valueOf(alphabet.charAt(column));
+			//Add DotCOm into the ArrayList
+			alphaCells.add(temp.concat(Integer.toString(row)));	
 		}
 
 	}
