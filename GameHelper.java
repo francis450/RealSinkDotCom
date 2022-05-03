@@ -112,7 +112,9 @@ public class GameHelper{
 			//comvert numeric column value to alpha
 			temp = String.valueOf(alphabet.charAt(column));
 			//Add DotCOm into the ArrayList
-			alphaCells.add(temp.concat(Integer.toString(row)));	
+			alphaCells.add(temp.concat(Integer.toString(row)));
+			//Increment the coordinate int
+			x++;	
 		}
 
 	}
