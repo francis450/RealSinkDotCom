@@ -118,6 +118,8 @@ public class GameHelper{
 			//Display the cell coordinates in the grid
 			System.out.print("coord "+x+" = "+alphaCells.get(x-1));	
 		}
+		//New line
+		System.out.println("\n");
 
 	}
 }
