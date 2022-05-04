@@ -120,6 +120,7 @@ public class GameHelper{
 		}
 		//New line
 		System.out.println("\n");
-
+		//Return the cells
+		return alphaCells;
 	}
 }
