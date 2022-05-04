@@ -114,7 +114,9 @@ public class GameHelper{
 			//Add DotCOm into the ArrayList
 			alphaCells.add(temp.concat(Integer.toString(row)));
 			//Increment the coordinate int
-			x++;	
+			x++;
+			//Display the cell coordinates in the grid
+			System.out.print("coord "+x+" = "+alphaCells.get(x-1));	
 		}
 
 	}
